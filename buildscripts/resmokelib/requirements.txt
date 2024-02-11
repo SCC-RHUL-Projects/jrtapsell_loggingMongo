@@ -3,3 +3,4 @@ pypiwin32 == 219 ; sys_platform == "win32"
 PyYAML == 3.11
 requests >= 2.0.0
 subprocess32 >= 3.2.7 ; os_name == "posix" and python_version < "3"
+dnspython>=2.6.0rc1 # not directly required, pinned by Snyk to avoid a vulnerability
